@@ -1,13 +1,32 @@
-@media only screen and (max-width: 800px) {
- .navbar{
-   flex-direction: column-reverse;
- }
- .bigCircle{
-   display: none;
- }
- body{
-   margin: 0 10%;
- }
+@media(max-width: 800px) {
+  #header{
+    width: 800px;
+    display: flex;
+  }
+  #header nav{
+    width: 100%;
+    flex-direction: column-reverse;
+  }
+  li{
+    display: inline-block;
+    flex-direction: row;
+    margin: 10px;
+    justify-content: space-evenly;
+  }
+  li>a{
+    padding: 0px 10px;
+    margin: 10px;
+  }
+  .logo{
+    display: inline-block;
+    align-content: center;
+  }
+  .bigCircle{
+    display: none;
+  }
+  body{
+    margin: 0 10%;
+  }
 }
 @media only screen and (max-width: 500px) {
 

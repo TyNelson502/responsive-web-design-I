@@ -68,25 +68,41 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
-.navigation{
+
+#header{
 	background-color: none;
-	justify-content: space-evenly;
-	display: flex;
+	width: 100%;
+	margin: 0px;
 }
-.navigation a{
+#header nav{
+	display: flex;
+	padding: 10px;
+	justify-content: space-evenly;
+}
+ul{
+	list-style: none;
+}
+li{
+	display: inline-block;
+	margin: 20px 10px;
+}
+li>a{
 	color: grey;
 	text-decoration: none;
-	font-size: 1rem;
+	padding: 25px;
 }
 .logo{
-	margin-bottom: 50px;
+	margin-bottom: 50px; 
+	align-items: center;
+	width: 150px;
+	height: 40px;
 }
-.header{
+.innovation{
 	display: flex;
 	justify-content: space-evenly; /*Don't change*/
 	text-align: center;
 }
-.header h1{
+.innovation h1{
 	font-size: 55pt; 
 	margin-top: 50px;
 }
@@ -119,11 +135,11 @@ button{
 	display:flex;
 }
 .summaries-top .Features{
-	width: 45%;
+	width: 50%;
 	margin-right: 5px;
 }
 .summaries-top .About{
-	width: 45%;
+	width: 50%;
 }
 .middle-img {
 	width:100%; 
@@ -142,6 +158,10 @@ footer{
 }
 footer>a{
 	margin-bottom:45px;
+}
+#sales{
+	text-decoration: none;
+	color: black;
 }
 .copyright{
 	text-align: center;

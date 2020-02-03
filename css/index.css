@@ -1,12 +1,10 @@
 #header{
 	background-color: none;
-	width: 100%;
-	margin: 0px;
 }
 #header nav{
 	display: flex;
 	padding: 10px;
-	justify-content: space-evenly;
+	justify-content: space-between;
 }
 ul{
 	list-style: none;
@@ -22,7 +20,7 @@ li>a{
 }
 .logo{
 	margin-bottom: 50px; 
-	align-items: center;
+	/*align-items: center; */
 }
 .innovation{
 	display: flex;

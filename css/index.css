@@ -1,3 +1,85 @@
-/* Use your own code or past solution for Great Idea Web Page CSS here! */
+#header{
+	background-color: none;
+}
+#header nav{
+	display: flex;
+	padding: 10px;
+	justify-content: space-between;
+}
+ul{
+	list-style: none;
+	display: flex;
+}
+li{
+	flex-direction: row;
+}
+li>a{
+	color: grey;
+	text-decoration: none;
+	padding: 25px;
+}
+.logo{
+	margin-bottom: 50px; 
+	/*align-items: center; */
+}
+.innovation{
+	display: flex;
+	justify-content: space-evenly; /*Don't change*/
+	text-align: center;
+}
+.innovation h1{
+	font-size: 55pt; 
+	margin-top: 50px;
+}
+button{ 
+	border:1px solid black;
+	font-family: "Titillium Web";
+	background-color: white;	
+	box-sizing: content-box;
+	padding-top: 6px;
+	padding-right: 45px;
+	padding-bottom: 6px;
+	padding-left: 45px;
+	margin-bottom: 45px;
+}
+.bigCircle-img{
+	margin-top: 15px;
+	margin-bottom: 40px;
+}
+.summaries-mid{
+	display: flex;
+	flex-wrap: wrap;
+}
 
-
+.summaries-top{
+	border-top: dotted 2px black;
+	padding:30px 0px;
+	margin-top: 20px;
+	display:flex;
+}
+.middle-img {
+	width:100%; 
+}
+.summaries-bottom{
+	border-bottom: dotted 2px black;
+	margin-bottom: 20px;
+	padding:20px 0px 30px;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+}
+footer{
+	margin: 40px 0;
+	padding-bottom: 40px;
+}
+footer>a{
+	margin-bottom:45px;
+}
+#sales{
+	text-decoration: none;
+	color: black;
+}
+.copyright{
+	text-align: center;
+	margin-top: 45px;
+}	
